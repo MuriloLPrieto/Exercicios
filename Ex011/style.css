@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idrod';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'idroid';
+    font-size: 1em;
+    background-color: lightgreen;
+}
+
+nav>h1 {
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(143, 206, 143), rgb(56, 180, 56), rgb(0, 70, 0));
+    margin: 0%;
+}
+
+nav {
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+}
+
+
+main {
+    padding: 1px;
+    margin: 0px 30px;
+    background-color: white;
+    text-indent: 30px;
+}
+
+main>p {
+    text-align: justify;
+    margin: 10px 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 70, 0);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    margin-bottom: -30px;
+}
+
+#centro {
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 95%;
+    border: 0%;
+    height: 95%;
+    margin: 0%;
+    padding: 0%;
+}
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+}
+.lista>li {
+    flex: 0 0 48%;
+    margin: 0 1%;
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+#irina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#video {
+    background-color: rgb(0, 70, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+
+.cabecalho {
+    color: white;
+    text-align: center;
+}
+
+#extra {
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+#extra>h2 {
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 187, 47);
+    text-align: left;
+}
+
+#extra>p {
+    text-indent: 30px;
+    margin: 10px 10px;
+    padding-bottom: 10px;
+}
